@@ -17,7 +17,7 @@ Now it is also possible to add a connection pane, connect to a SA using the Key 
 
 Load logs from SA:
 
-<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/imagesversion_1_1_loadfromsa.png">
+<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/version_1_1_loadfromsa.png">
 
 Send logs to grid:
 
