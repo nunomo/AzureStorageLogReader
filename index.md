@@ -17,11 +17,11 @@ Now it is also possible to add a connection pane, connect to a SA using the Key 
 
 Load logs from SA:
 
-<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/imagesversion_1_1_loadfromsa.png>
+<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/imagesversion_1_1_loadfromsa.png">
 
 Send logs to grid:
 
-<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/version_1_1_sendtogrid.png>
+<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/version_1_1_sendtogrid.png">
 
 <b>Version 1.0.0.</b>
 
@@ -29,18 +29,18 @@ The application allows us to read log files appending the data to the table, usi
 
 Select files:
 
-<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/AzureStorageLogReader_1.png>
+<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/AzureStorageLogReader_1.png">
 
 It is possible to choose which columns appear in the grid.
 
 Choose columns:
 
-<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/AzureStorageLogReader_2.png>
+<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/AzureStorageLogReader_2.png">
 
 And allows to Sort and Filter the grid.
 
 Filter:
 
-<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/AzureStorageLogReader_3.png>
+<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/AzureStorageLogReader_3.png">
 
 And export data to Excel format.
