@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# AzureStorageLogReader
 
-You can use the [editor on GitHub](https://github.com/nunomo/AzureStorageLogReader/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnunomo%2FAzureStorageLogReader&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It is a GUI Windows application (.Net 4.8) that allows to read and export the Azure Storage Log files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<b>Version 1.1.0.</b>
 
-```markdown
-Syntax highlighted code block
+This version supports the *.log extension (classic) and the JSON format (preview), more information about the new storage accounts logs here: https://docs.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage?tabs=azure-portal#creating-a-diagnostic-setting
 
-# Header 1
-## Header 2
-### Header 3
+![Select Mode:](https://github.com/nunomo/AzureStorageLogReader/blob/main/images/version_1_1_selectmode.png)
 
-- Bulleted
-- List
+Now it is also possible to add a connection pane, connect to a SA using the Key or SAS, and load the logs directly from the selected storage account:
 
-1. Numbered
-2. List
+![Load logs from SA:](https://github.com/nunomo/AzureStorageLogReader/blob/main/images/version_1_1_loadfromsa.png)
 
-**Bold** and _Italic_ and `Code` text
+![Send logs to grid:](https://github.com/nunomo/AzureStorageLogReader/blob/main/images/version_1_1_sendtogrid.png)
 
-[Link](url) and ![Image](src)
-```
+<b>Version 1.0.0.</b>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The application allows us to read log files appending the data to the table, using the Add Log files button, it is possible to choose multiple files.
 
-### Jekyll Themes
+![Select files:](https://github.com/nunomo/AzureStorageLogReader/blob/main/images/AzureStorageLogReader_1.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nunomo/AzureStorageLogReader/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+It is possible to choose which columns appear in the grid.
 
-### Support or Contact
+![Choose columns:](https://github.com/nunomo/AzureStorageLogReader/blob/main/images/AzureStorageLogReader_2.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+And allows to Sort and Filter the grid.
+
+![Filter:](https://github.com/nunomo/AzureStorageLogReader/blob/main/images/AzureStorageLogReader_3.png)
+
+And export data to Excel format.
