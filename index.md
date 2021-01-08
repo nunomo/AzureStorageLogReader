@@ -9,7 +9,8 @@ It is a GUI Windows application (.Net 4.8) that allows to read and export the Az
 
 This version supports the *.log extension (classic) and the JSON format (preview), more information about the new storage accounts logs here: https://docs.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage?tabs=azure-portal#creating-a-diagnostic-setting
 
-![Select Mode:](https://raw.githubusercontent.com/blob/main/images/version_1_1_selectmode.png)
+Select Mode:
+<img src="https://raw.githubusercontent.com/nunomo/AzureStorageLogReader/main/images/version_1_1_selectmode.png">
 
 Now it is also possible to add a connection pane, connect to a SA using the Key or SAS, and load the logs directly from the selected storage account:
 
